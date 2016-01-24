@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@drawable/grey_border_bottom">
+
+    <ImageView
+        android:layout_width="@dimen/package_row_height"
+        android:layout_height="@dimen/package_row_height"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/thumbnail"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/thumbnail">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:id="@+id/packageTitle"
+            android:text="Name of package"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:id="@+id/packageDescription"
+            android:layout_below="@+id/packageTitle"
+            android:width="0dip"
+            android:text="Package desciption goes here"
+            />
+
+    </RelativeLayout>
+
+</TableRow>

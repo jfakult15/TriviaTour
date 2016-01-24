@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trivia Tour</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_package_display_screen">PackageDisplayScreen</string>
+    <string name="title_activity_store_screen">StoreScreen</string>
+    <string name="title_activity_store_search">StoreSearchActivity</string>
+    <string name="title_activity_store_display_screen">StoreDisplayScreen</string>
+</resources>
